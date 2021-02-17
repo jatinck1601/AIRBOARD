@@ -28,11 +28,8 @@ while True:
     if k == 1 or cv2.waitKey(30) == 27:
         cv2.destroyAllWindows()
         break
-
 stp = 0
 #opical flow starts here
-
-
 old_pts = np.array([[x, y]], dtype=np.float32).reshape(-1,1,2)
 
 
